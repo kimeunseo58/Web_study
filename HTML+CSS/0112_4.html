@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #header, #content, #footer{
+                width: 1000px;
+                margin:0 auto;
+                overflow:hidden;
+            }
+            #header .leftSpace, #content .leftSpace, #footer .leftSpace{
+                    width:150px;
+                    height: 150px;
+                    float: left;
+                    background-color: honeydew;
+                    border:solid bisque 2px;
+            }
+            #header .centerSpace, #content .centerSpace, #footer .centerSpace{
+                    width: 650px;;
+                    height: 150px;
+                    float: left;
+                    background-color: honeydew;
+                    border:solid bisque 2px;
+            }
+            #header .rightSpace, #content .rightSpace, #footer .rightSpace{
+                    width:150px;
+                    height: 150px;
+                    float: left;
+                    background-color: honeydew;
+                    border:solid bisque 2px;
+            }
+            #header .leftSpace, #footer .rightSpace{
+                border-radius:30px 0;
+            }
+            #header .rightSpace, #footer .leftSpace{
+                border-radius:0 30px;
+            }
+            #content .leftSpace{
+                border-radius: 0 30px 30px 0;
+                height: 500px;
+            }
+            #content .rightSpace{
+                border-radius: 30px 0 0 30px ;
+                height: 500px;
+            }
+            #header .centerSpace{
+                border-radius: 0 0 30px 30px;
+            }
+            #content .centerSpace{
+                border-radius:30px 30px 30px 30px;
+                height: 500px;
+            }
+            #footer .centerSpace{
+                border-radius:30px 30px 0 0;
+            }
+            ul li{
+                list-style: none;
+                float:left;
+                padding:0 45px;
+                font-weight: bold;
+            }
+            #content .main{
+                clear:both;
+                padding:10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id ="header">
+            <div class ="leftSpace"></div>
+            <div class ="centerSpace"></div>  
+            <div class ="rightSpace"></div>    
+        </div>
+        <div id ="content">
+            <div class ="leftSpace"></div>
+            <div class ="centerSpace">
+                <div>
+                    <ul>
+                        <li>menu1</li>
+                        <li>menu2</li>
+                        <li>menu3</li>
+                        <li>menu4</li><br/>
+                    </ul>
+                </div>
+                <div class ="main">
+                    <h1>1989</h1>
+                    <p>1989 is the fifth studio album by American singer-songwriter Taylor Swift. 
+                        The album's synth-pop sound is characterized by heavy synthesizers, programmed drums, and processed backing vocals. 
+                        Swift wrote the songs inspired by her personal relationships, which had been a trademark of her songwriting. 
+                        1989 was a commercial success. In the US, Swift became the first artist to have three albums each sell over one million copies within their first week of release.
+                        1989 received generally positive reviews from contemporary critics; most of them acknowledged Swift's mature perceptions. 
+                        1989 won Favorite Pop/Rock Album at the 2015 American Music Awards, Album of the Year (Western) at the 2015 Japan Gold Disc Awards,
+                        and Album of the Year at the 2016 iHeartRadio Music Awards.
+                        It also earned nominations for Best International Pop/Rock Album at the 2015 Echo Music Prize,
+                        International Album of the Year at the 2015 Juno Awards, and Best International Album at the Los Premios 40 Principales 2015.
+                        At the 58th Grammy Awards in 2016, the album won Album of the Year and Best Pop Vocal Album.
+                        Swift became the first female solo artist to win Album of the Year twice—her first win was for Fearless (2008) in 2010.</p>
+                </div>
+            </div>  
+            <div class ="rightSpace"></div>   
+        </div>
+        <div id ="footer">
+            <div class ="leftSpace"></div>
+            <div class ="centerSpace"></div>  
+            <div class ="rightSpace"></div>  
+        </div>
+    </body>
+</html>

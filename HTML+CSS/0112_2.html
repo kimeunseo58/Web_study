@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            input:focus{
+                border: solid red;
+            }
+            input:enabled{
+                color: rebeccapurple;
+                font-weight: bold;
+            }
+            input:disabled{
+                color: rosybrown;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="#" method="get">
+            이름:<input type ="text" name="username"/><br/>
+            ID:<input type ="text" name="userID"/><br/>
+            PW:<input type ="password" name="userPW" value ="12345" disabled="disabled"/><br/>
+            <input type ="submit"/>
+        </form>
+    </body>
+</html>
